@@ -1,6 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/poppins?styles=20390');
 
-header {
+#header {
     background-color: aliceblue;
     border-radius: 10px;
     height: 12vh;
