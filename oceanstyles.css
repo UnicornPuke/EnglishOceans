@@ -35,8 +35,8 @@
     border-radius: 10px;
     text-align: center;
     float: right;
-    margin: 2vh;
-    margin-top: 1vh;
+    margin-right: 1.5vh;
+    margin-top: 2vh;
     line-height: 11vh;
     transition: all 1s;
     overflow-y: hidden;
@@ -86,7 +86,7 @@
     height: 15vh;
     float: top;
     width: 98vw;
-    margin: 2vh;
+    margin-left: 1vh;
     line-height: 15vh;
     text-align: center;
 }
