@@ -36,7 +36,7 @@
     border-radius: 10px;
     text-align: center;
     float: right;
-    margin-left: .25vw;
+    margin-right: 1vw;
     margin-top: 2vh;
     line-height: 11vh;
     transition: all 1s;
@@ -73,7 +73,7 @@
     animation-name: enlarge;
     animation-duration: 1s;
     animation-iteration-count: 1;
-    background-color: rgb(193, 75, 252);
+    background-color: rgb(194, 75, 252);
     animation-name: shake;
     animation-duration: .5s;
     animation-iteration-count: infinite;
@@ -87,9 +87,21 @@
     height: 15vh;
     float: top;
     width: 98vw;
-    margin-left: .5vw;
+    margin-left: 1vw;
     line-height: 15vh;
     text-align: center;
+}
+#footer {
+    background-color: rgb(18, 0, 132);
+    border-radius: 10px;
+    height: 21vh;
+    float: top;
+    width: 98vw;
+    margin-left: 1vw;
+    margin-top: 60vh;
+    line-height: 15vh;
+    text-align: center;
+    line-height: 21vh;
 }
 #content {
     background-color: aliceblue;
@@ -97,7 +109,7 @@
     height: 55.5vh;
     float: left;
     width: 77vw;
-    margin-left: .5vw;
+    margin-left: 1vw;
     line-height: 15vh;
     text-align: center;
     margin-top: 2vh;
@@ -111,6 +123,12 @@ h1 {
     font-family: 'Poppins', sans-serif;
     margin: 1vw;
     float: center
+}
+cite {
+    font-family: 'Poppins', sans-serif;
+    margin: 1vw;
+    float: center;
+    color:rgb(46, 218, 183)
 }
 body {
     background-color: rgb(57, 57, 238);
