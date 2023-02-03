@@ -36,7 +36,7 @@
     border-radius: 10px;
     text-align: center;
     float: right;
-    margin-right: 1.5vh;
+    margin-left: .25vw;
     margin-top: 2vh;
     line-height: 11vh;
     transition: all 1s;
@@ -87,9 +87,20 @@
     height: 15vh;
     float: top;
     width: 98vw;
-    margin-left: 1vh;
+    margin-left: .5vw;
     line-height: 15vh;
     text-align: center;
+}
+#content {
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: 55.5vh;
+    float: left;
+    width: 77vw;
+    margin-left: .5vw;
+    line-height: 15vh;
+    text-align: center;
+    margin-top: 2vh;
 }
 p {
     font-family: 'Poppins', sans-serif;
