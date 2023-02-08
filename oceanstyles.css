@@ -2,7 +2,7 @@
 
 @keyframes extend {
     0% {height: 15vh}
-    100% {height: 55.5vh}
+    100% {height: 59.5vh}
 }
 @keyframes enlarge {
     0% {height: 7vh; width: 15vw; background-color: rgb(203, 127, 237); line-height: 7vh;}
@@ -46,7 +46,7 @@
     animation-name: extend;
     animation-duration: 1s;
     animation-iteration-count: 1;
-    height: 55.5vh; 
+    height: 59.5vh; 
 }
 #sidebar:hover > .material-symbols-outlined { 
     animation-name: rotate;
@@ -56,14 +56,14 @@
 }
 #sidebarpiece {
     float: center;
-    height: 7vh;
+    height: 6vh;
     width: 15vw;
     background-color: rgb(203, 127, 237);
     border-radius: 10px;
     text-align: center;
     margin: 2vh;
     margin: 0 auto;
-    line-height: 7vh;
+    line-height: 6vh;
     transition: width 1s, height 1s, transform 1s, background-color 1s, line-height 1s;
     align-self: center;
     margin-top: 2.5vh
@@ -94,19 +94,19 @@
 #footer {
     background-color: rgb(18, 0, 132);
     border-radius: 10px;
-    height: 21vh;
+    height: 17vh;
     float: top;
     width: 98vw;
     margin-left: 1vw;
-    margin-top: 60vh;
+    margin-top: 64vh;
     line-height: 15vh;
     text-align: center;
-    line-height: 21vh;
+    line-height: 17vh;
 }
 #content {
     background-color: aliceblue;
     border-radius: 10px;
-    height: 55.5vh;
+    height: 59.5vh;
     float: left;
     width: 77vw;
     margin-left: 1vw;
