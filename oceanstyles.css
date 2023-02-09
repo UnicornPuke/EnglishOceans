@@ -99,9 +99,8 @@
     width: 98vw;
     margin-left: 1vw;
     margin-top: 64vh;
-    line-height: 15vh;
     text-align: center;
-    line-height: 17vh;
+    line-height: 8.5vh;
 }
 #content {
     background-color: aliceblue;
@@ -129,6 +128,10 @@ cite {
     margin: 1vw;
     float: center;
     color:rgb(46, 218, 183)
+}
+a {
+    text-decoration: none;
+    color: black;
 }
 body {
     background-color: rgb(57, 57, 238);
