@@ -109,8 +109,7 @@
     float: left;
     width: 77vw;
     margin-left: 1vw;
-    line-height: 15vh;
-    text-align: center;
+    text-align: left;
     margin-top: 2vh;
 }
 p {
@@ -135,7 +134,10 @@ a {
 }
 img {
     border-radius: 10px;
-    border-style: solid;
+    float: right;
+    float: bottom;
+    margin-right: 1vw;
+    margin-bottom: 1vh;
 }
 body {
     background-color: rgb(57, 57, 238);
