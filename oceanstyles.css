@@ -107,10 +107,11 @@
     border-radius: 10px;
     height: 59.5vh;
     float: left;
-    width: 77vw;
+    width: 55vw;
     margin-left: 1vw;
     text-align: left;
     margin-top: 2vh;
+    padding-right: 22vw
 }
 p {
     font-family: 'Poppins', sans-serif;
@@ -135,9 +136,10 @@ a {
 img {
     border-radius: 10px;
     float: right;
-    float: bottom;
-    margin-right: 1vw;
-    margin-bottom: 1vh;
+    position: absolute;
+    bottom: 23vh;
+    right: 23vw;
+    transition: all 1s
 }
 body {
     background-color: rgb(57, 57, 238);
