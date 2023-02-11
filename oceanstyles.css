@@ -29,6 +29,9 @@
     'GRAD' 0,
     'opsz' 16
 }
+* {
+    transition: all 1s;
+}
 #sidebar {
     height: 15vh;
     width: 19vw;
@@ -111,7 +114,48 @@
     margin-left: 1vw;
     text-align: left;
     margin-top: 2vh;
-    padding-right: 22vw
+    padding-right: 22vw;
+    position: relative;
+    z-index: 10;
+}
+#imghome {
+    float: right;
+    position: absolute;
+    bottom: 24vh;
+    right: 23vw;
+    transition: all 1s
+}
+#imgclimate {
+    float: left;
+    height: 23vh;
+    width: 17vw;
+    float: left;
+    margin-top: .5vh;
+    margin-left: 2vh;
+    position: relative;
+    z-index: 20;
+}
+#imgclimate:hover + #invisidiv{
+    height: 0vh;
+    font-size: 1000;
+}
+#invisidiv {
+    height: 22vh;
+    width: 17vw;
+    margin-left: -17vw;
+    margin-top: 22vh;
+    background-color: aliceblue;
+    float: left;
+    transition: all 1s;
+}
+#backtext {
+    font-size: .825vw;
+    z-index: -1; 
+    position: relative;
+}
+#filler {
+    background-color: rgb(0,0,0,0); 
+    height: 2.5vh
 }
 p {
     font-family: 'Poppins', sans-serif;
@@ -135,11 +179,6 @@ a {
 }
 img {
     border-radius: 10px;
-    float: right;
-    position: absolute;
-    bottom: 23vh;
-    right: 23vw;
-    transition: all 1s
 }
 body {
     background-color: rgb(57, 57, 238);
