@@ -36,6 +36,19 @@
     transition: all 1s;
     overflow-y: hidden;
 }
+#featurebox {
+    height: 18.5vh;
+    width: 19vw;
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    float: right;
+    margin-right: 1vw;
+    margin-top: 2vh;
+    line-height: 18.5vh;
+    transition: all 1s;
+    overflow-y: hidden;
+}
 #sidebar:hover {
     height: 59.5vh; 
 }
