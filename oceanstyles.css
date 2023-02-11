@@ -1,21 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/poppins?styles=20390');
-
-@keyframes extend {
-    0% {height: 15vh}
-    100% {height: 59.5vh}
-}
-@keyframes enlarge {
-    0% {height: 7vh; width: 15vw; background-color: rgb(203, 127, 237); line-height: 7vh;}
-    100% {height: 9vh; width: 18vw; background-color: rgb(189, 75, 246); line-height: 9vh;}
-}
 @keyframes shake {
     0% {transform: rotate(5deg);}
     50% {transform: rotate(-5deg);}
     100% {transform: rotate(5deg);}
 }
-@keyframes rotate {
-    0% {transform: rotate(0deg);}
-    100% {transform: rotate(180deg);}
+@keyframes lineheight {
+    0% {line-height: 6vh}
+    100% {line-height: 9vh}
 }
 .material-symbols-outlined.md-36 {
     float: left;
@@ -46,15 +37,9 @@
     overflow-y: hidden;
 }
 #sidebar:hover {
-    animation-name: extend;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
     height: 59.5vh; 
 }
 #sidebar:hover > .material-symbols-outlined { 
-    animation-name: rotate;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
     transform: rotate(180deg);
 }
 #sidebarpiece {
@@ -67,16 +52,13 @@
     margin: 2vh;
     margin: 0 auto;
     line-height: 6vh;
-    transition: width 1s, height 1s, transform 1s, background-color 1s, line-height 1s;
     align-self: center;
     margin-top: 2.5vh
 
 }
 #sidebarpiece:hover {
-    animation-name: enlarge;
+    animation-name: line-height;
     animation-duration: 1s;
-    animation-iteration-count: 1;
-    background-color: rgb(194, 75, 252);
     animation-name: shake;
     animation-duration: .5s;
     animation-iteration-count: infinite;
@@ -121,8 +103,7 @@
 #imghome {
     float: right;
     position: absolute;
-    bottom: 24vh;
-    right: 23vw;
+    bottom: 4vh;
     transition: all 1s
 }
 #imgclimate {
