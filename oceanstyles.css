@@ -113,6 +113,8 @@
     padding-right: 22vw;
     position: relative;
     z-index: 10;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 #imghome {
     float: right;
@@ -156,18 +158,18 @@
     width: auto;
 }
 #hoverdiv:hover > .material-symbols-outlined.md-36{
-    margin-left: 40vw;
+    margin-left: 75vw;
     transform: rotate(360deg)
 }
 #hoverdiv:hover > #coverdiv {
     width: 0;
 }
 #coverdiv {
-    width: 40vw;
+    width: 72.5vw;
     float: left;
     position: relative;
     background-color: aliceblue;
-    height: 6vh;
+    height: 12vh;
     margin-left: -1.5vw;
 }
 #backtext2 {
