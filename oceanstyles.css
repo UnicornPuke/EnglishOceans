@@ -134,7 +134,7 @@
     font-size: 1000;
 }
 #invisidiv {
-    height: 34.5vh;
+    height: 39.5vh;
     width: 17vw;
     margin-left: -17vw;
     margin-top: 22vh;
@@ -143,7 +143,7 @@
     transition: all 1s;
 }
 #backtext {
-    font-size: .825vw;
+    font-size: .86vw;
     z-index: -1; 
     position: relative;
 }
