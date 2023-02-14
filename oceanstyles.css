@@ -8,6 +8,10 @@
     0% {line-height: 6vh}
     100% {line-height: 9vh}
 }
+@keyframes flowback1 {
+    0% {width: 100%}
+    100% {width: 0}
+}
 .material-symbols-outlined.md-36 {
     float: left;
     margin-top: 5.5vh;
@@ -176,6 +180,45 @@
     z-index: -1; 
     position: absolute;
     margin-left: 3vw
+}
+#imghistory {
+    margin-top: 2vh; 
+    height: 21vh; 
+    float: center; 
+    margin-left: 1vw;
+}
+#imghistory:hover {
+    margin-top: 1vh;
+    height: 23vh;
+}
+#backtext3 {
+    z-index: -1;
+    position: absolute; 
+}
+#modernhover {
+    position: relative
+}
+#modern1 {
+    background-color: rgb(80, 144, 200);
+    position: relative;
+    width: 100%;
+}
+#modern2 {
+    background-color: aliceblue;
+    position: relative;
+    margin-bottom: -8vh;
+    margin-top: 6vh;
+}
+#modern3 {
+    background-color: aliceblue;
+    position: relative;
+    margin-bottom: -8vh;
+    margin-top: 14vh;
+}
+#modernhover:hover ~ #modern1 {
+    animation-name: flowback1;
+    animation-duration: 1s;
+    width: 0vw;
 }
 p {
     font-family: 'Poppins', sans-serif;
